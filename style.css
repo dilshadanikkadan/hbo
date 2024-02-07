@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar .left {
+    flex: 3;
+    display: flex;
+    gap: 35px;
+
+}
+
+.left .logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.left .infoNav {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+.infoNav p {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.navbar .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 15px;
+}
+
+.right .rightBtn {
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.right .rightButton {
+    background-color: rgb(68, 6, 224);
+    padding: 7px 20px;
+    /* font-size: 17px; */
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+.right span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.contentOne {
+    width: 100%;
+    height: 70vh;
+    background: url(images/contentOnePic.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.contentOne .infoContainerOne {
+    position: absolute;
+    bottom: 7%;
+    margin-left: 10%;
+
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFf;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentOne .available {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contentOne .detective {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.contentOne .desc {
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+
+.infoContainerOne button {
+    background-color: rgb(99, 201, 234);
+    padding: 7px 20px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.streamWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.streamWrapper .cardWrapper {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.streamWrapper h3 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.cardWrapper .card {
+    width: 280px;
+    margin-top: 20px;
+
+}
+
+.cardWrapper .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card .now {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.card h4 {
+    color: rgba(0, 0, 0, 0.852);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.card .decs {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+
+.card .button {
+    padding: 7px 15px;
+    font-size: 20px;
+    color: rgb(76, 195, 235);
+    text-transform: capitalize;
+    border: none;
+}
+
+.adContainer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adContainer .adWrapper {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    border: none;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    display: flex;
+
+}
+
+.adWrapper .left {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
+}
+
+.adWrapper p {
+    margin-left: 15px;
+}
+
+.adWrapper .center {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
+}
+
+.adWrapper .right {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
+}
+
+.contentSecond {
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    padding-bottom: 50px;
+}
+
+.contentSecond .contentSecondWrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.contentSecondWrapper .left {
+    flex: 1;
+    background: url(images/contentTwo.jpg);
+    background-size: cover;
+}
+
+.contentSecondWrapper .info {
+    font-family: 'Nunito Sans', sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.contentSecondWrapper .info .final {
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+.contentSecondWrapper .info .heading {
+    font-size: 18px;
+    text-transform: capitalize
+}
+
+.contentSecondWrapper .info .btn {
+    font-size: 19px;
+    text-transform: capitalize;
+    color: rgb(49, 179, 222);
+}
+
+.secondAdd {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: #0028E1;
+    margin-bottom: 50px;
+}
+
+.secondAdd .secondAddWrpper {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.secondAddWrpper .left {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.secondAddWrpper .left img {
+    height: 85%;
+    width: 230px;
+}
+
+.secondAddWrpper .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.secondAddWrpper .right h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.secondAddWrpper .right p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.secondAddWrpper .right button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.secondCard{
+    width: 380px !important;
+}
+
+.newleftOne{
+    margin-top: 50px !important;
+    background: url(images/true-detective-night-country-s4-ka-1920.jpg) !important;
+    background-size: cover !important;
+    flex: 2 !important;
+}
+.footer{
+    background-color: #404040;
+    width: 100%;
+    height: 30vh;
+}
+
+.infoFooter{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    font-family: 'Nunito Sans', sans-serif;
+    gap: 20px;
+
+}
+.infoFooter .newLogo{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.infoFooter .links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    font-weight: 19px;
+    color: white;
+}
+.infoFooter p{
+    color: white;
+}
